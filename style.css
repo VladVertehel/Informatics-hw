@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Segoe UI";
+}
+html{
+    background-color: rgb(241, 241, 241);
+}
+.nav{
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+    max-width: 100%;
+}
+.btn{
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 2px 10px 0 12px;
+    margin: 0;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 62px;
+    font-weight: 700;
+    background-color: #1a1a1a;
+    border: 0;
+}
+.btn:hover{
+    color: rgb(194, 194, 194);
+    transition: 0.2s;
+}
+.logo{
+    width: 168px; 
+    height: 26px;
+    margin: auto;
+    cursor: pointer;
+}
+.footballBtn{
+    background-color: #fff;
+    max-width: 100%;
+    height: 10px;
+    margin: auto;
+    padding: 10px 5px;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+.search{
+    height: 30px;
+    max-width: 100%;
+    margin: auto 5px;
+    cursor: pointer;
+}
+#last{
+    margin-right: 30px;
+}
+#first{
+    margin-left: 30px;
+}
+.second-nav{
+    background-color: #81db34;
+    display: flex;
+    justify-content: start;
+    padding: 0 200px;
+    max-width: 100%;
+}
+.second-btn{
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 10px;
+    line-height: 50px;
+    font-weight: 400;
+}
+#bold{
+    font-weight: bolder;
+}
+.second-btn:hover{
+    color: rgb(104, 98, 98);
+    transition: 0.2s;
+}
+
+/* ----------------------------------------------------- */
+
+.section{
+    background-color: white;
+    margin: 5px 150px;
+    padding: 25px 20px;
+}
+.ad{
+    max-width: 100%;
+    height: 240px;
+    border: 2px solid rgb(221, 0, 0);
+    margin: 15px 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+    font-weight: bolder;
+}
+.ad__right{
+    writing-mode: vertical-rl;
+    height: 700px;
+    max-width: 90%;
+    border: 2px solid rgb(65, 65, 65);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    margin-left: 40px;
+}
+.section__container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+p{
+    font-size: 38px;
+    line-height: 1.1em;
+    font-weight: 900;
+    padding: 5px 0 10px;
+    margin: 0;
+}
